@@ -9,4 +9,4 @@
 
 ## Lesson 4 - INSERTING INTO OUR DATABASE
 #### Prerequisite:
-`meteor add meteortoys:allthings` - ctrl + m to check the collections
+`meteor add meteortoys:allthings` - to check the collections (ctrl + m)
