@@ -10,3 +10,12 @@
 ## Lesson 4 - INSERTING INTO OUR DATABASE
 #### Prerequisite:
 `meteor add meteortoys:allthings` - to check the collections (ctrl + m)
+
+## Lesson 5 - GETTING DATA FROM METEOR WITH TRACKERREACT
+#### Prerequisite:
+`meteor add ultimatejs:tracker-react`
+
+## Lesson 6 - THINKING IN COMPONENTS
+
+### Meaning:
+- Props: the ability to pass data
