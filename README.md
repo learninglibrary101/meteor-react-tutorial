@@ -17,5 +17,9 @@
 
 ## Lesson 6 - THINKING IN COMPONENTS
 
+## Lesson 7 - ORGANIZING & STYLING OUR PROJECT
+#### Prerequisite:
+`meteor add stolinski:stylus-multi`
+
 ### Meaning:
 - Props: the ability to pass data

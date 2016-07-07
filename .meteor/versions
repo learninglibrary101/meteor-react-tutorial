@@ -86,6 +86,7 @@ spacebars@1.0.12
 spacebars-compiler@1.0.12
 standard-minifier-css@1.0.7_1
 standard-minifier-js@1.0.7_1
+stolinski:stylus-multi@1.4.3
 templating@1.1.12_1
 templating-tools@1.0.4
 tmeasday:check-npm-versions@0.2.0
