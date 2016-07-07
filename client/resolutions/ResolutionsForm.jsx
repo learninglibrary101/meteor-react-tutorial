@@ -9,13 +9,10 @@ export default class ResolutionsForm extends Component {
     event.preventDefault();   // prevent default behaviour of a form
     var text = this.refs.resolution.value.trim(); // trim is to remove any break space
 
-    Resolutions.insert({
-      text: text,
-      complete: false,
-      createdAt: new Date()
+    Meteor.call('addResolution', text, () => {
+      // arrow function represent the whole block for function 'addResolution'
+      this.refs.resolution.value = "";
     });
-
-    this.refs.resolution.value = "";
   }
 
   render(){

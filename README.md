@@ -23,5 +23,7 @@
 
 ## Lesson 8 - LOOPING OVER DATA IN REACT
 
+## Lesson 9 - REMOVING INSECURE & ADDING METHODS
+
 ### Meaning:
 - Props: the ability to pass data
