@@ -21,5 +21,7 @@
 #### Prerequisite:
 `meteor add stolinski:stylus-multi`
 
+## Lesson 8 - LOOPING OVER DATA IN REACT
+
 ### Meaning:
 - Props: the ability to pass data

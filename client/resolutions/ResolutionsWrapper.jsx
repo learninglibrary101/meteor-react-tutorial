@@ -14,17 +14,19 @@ export default class ResolutionsWrapper extends TrackerReact(React.Component){
   }
 
   render(){
-    let res = this.resolutions();
-    if(res.length < 1){
-      return (<div>Loading</div>);  // wait till data receive, because tracker grab things beforehand
-    }
+    // let res = this.resolutions();
+    // if(res.length < 1){
+    //   return (<div>Loading</div>);  // wait till data receive, because tracker grab things beforehand
+    // }
 
     return (
       <div>
         <h1>My Resolutions</h1>
         <ResolutionsForm/>
-        <ul>
-          <ResolutionSingle resolution={res[0]} />
+        <ul className="resolutions">
+          {this.resolutions().map((resolution)=>{
+            return <ResolutionSingle key={resolution._id} resolution={resolution} />
+          })}
         </ul>
       </div>
     );
