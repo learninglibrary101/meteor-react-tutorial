@@ -24,6 +24,10 @@
 ## Lesson 8 - LOOPING OVER DATA IN REACT
 
 ## Lesson 9 - REMOVING INSECURE & ADDING METHODS
+`meteor remove insecure`
+
+## Lesson 10 - SECURITY THROUGH PUBLISH & SUBSCRIBE
+`meteor remove autopublish`
 
 ### Meaning:
 - Props: the ability to pass data
