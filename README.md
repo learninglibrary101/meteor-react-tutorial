@@ -34,5 +34,7 @@
 ## Lesson 12 - ADDING USER ACCOUNTS & ADJUSTING PERMISSIONS
 `Meteor add accounts-ui accounts-password`
 
+## Lesson 13 - CONDITIONALS IN JSX
+
 ### Meaning:
 - Props: the ability to pass data
