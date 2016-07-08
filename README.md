@@ -31,5 +31,8 @@
 
 ## Lesson 11 - UPDATING & REMOVING OUR DATA
 
+## Lesson 12 - ADDING USER ACCOUNTS & ADJUSTING PERMISSIONS
+`Meteor add accounts-ui accounts-password`
+
 ### Meaning:
 - Props: the ability to pass data

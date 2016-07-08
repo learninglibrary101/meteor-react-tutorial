@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 
 export default class ResolutionSingle extends Component{
   toggleChecked(){
-    Meteor.call('toggleResolutions', this.props.resolution._id, this.props.resolution.complete);
+    Meteor.call('toggleResolutions', this.props.resolution);
   }
 
   deleteResolution(){
-    Meteor.call('deleteResolution', this.props.resolution._id);
+    Meteor.call('deleteResolution', this.props.resolution);
   }
 
   render(){
