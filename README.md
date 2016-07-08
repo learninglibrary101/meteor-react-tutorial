@@ -35,6 +35,8 @@
 `Meteor add accounts-ui accounts-password`
 
 ## Lesson 13 - CONDITIONALS IN JSX
+
+## Lesson 14 - CREATING OUR 2ND ROUTE & METEOR SESSION VARIABLES
 #### Session Variable
 Session variable does not share across its availability with other users. Meaning that it only applicable for the specific user.
 **Session variable is a globally namespace**
