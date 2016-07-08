@@ -47,5 +47,7 @@ React State is good to use for locking into a react component.
 ### Prerequisite:
 `meteor add themeteorchef:bert` - for stylist and easy notifications
 
+## Lesson 16 - PARAMETER BASED ROUTES
+
 ### Meaning:
 - Props: the ability to pass data
