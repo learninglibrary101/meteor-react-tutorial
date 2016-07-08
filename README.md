@@ -29,5 +29,7 @@
 ## Lesson 10 - SECURITY THROUGH PUBLISH & SUBSCRIBE
 `meteor remove autopublish`
 
+## Lesson 11 - UPDATING & REMOVING OUR DATA
+
 ### Meaning:
 - Props: the ability to pass data
