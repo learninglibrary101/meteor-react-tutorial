@@ -9,9 +9,16 @@ export default class ResolutionsForm extends Component {
     event.preventDefault();   // prevent default behaviour of a form
     var text = this.refs.resolution.value.trim(); // trim is to remove any break space
 
-    Meteor.call('addResolution', text, () => {
+    Meteor.call('addResolution', text, (error, data) => {
       // arrow function represent the whole block for function 'addResolution'
-      this.refs.resolution.value = "";
+
+      if(text){
+        if(error){
+          Bert.alert("Please login before submitting", "danger", "fixed-top", "fa-frown-o");
+        } else {
+          this.refs.resolution.value = "";
+        }
+      }
     });
   }
 

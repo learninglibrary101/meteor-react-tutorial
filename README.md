@@ -43,5 +43,9 @@ Session variable does not share across its availability with other users. Meanin
 #### React State
 React State is good to use for locking into a react component.
 
+## Lesson 15 - EASY NOTIFICATIONS & IMPROVING USER EXPERIENCE
+### Prerequisite:
+`meteor add themeteorchef:bert` - for stylist and easy notifications
+
 ### Meaning:
 - Props: the ability to pass data
