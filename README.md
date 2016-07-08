@@ -52,5 +52,9 @@ React State is good to use for locking into a react component.
 ## Lesson 17 - PUBLIC & PRIVATE SETTINGS
 `$ meteor --settings settings.json`
 
+## Lesson 18 - CHECK YOUR VARIABLES FOR SECURITY
+`meteor add check` - check our code before it is run on the server
+(optional) `simple-schema` - checking all variables for you
+
 ### Meaning:
 - Props: the ability to pass data
