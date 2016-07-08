@@ -35,6 +35,11 @@
 `Meteor add accounts-ui accounts-password`
 
 ## Lesson 13 - CONDITIONALS IN JSX
+#### Session Variable
+Session variable does not share across its availability with other users. Meaning that it only applicable for the specific user.
+**Session variable is a globally namespace**
+#### React State
+React State is good to use for locking into a react component.
 
 ### Meaning:
 - Props: the ability to pass data
