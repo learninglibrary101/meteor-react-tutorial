@@ -1,5 +1,6 @@
 import React from 'react';
 import TrackerReact from 'meteor/ultimatejs:tracker-react';   // use this only for pulling in data
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import { render } from 'react-dom';
 
 import ResolutionsForm from './ResolutionsForm.jsx';
@@ -30,13 +31,13 @@ export default class ResolutionsWrapper extends TrackerReact(React.Component){
   render(){
     return (
       <div>
-        <h1>My Resolutions - {Session.get('test')}</h1>
+        <h1>My Resolutions</h1>
         <ResolutionsForm/>
-        <ul className="resolutions">
+        <ReactCSSTransitionGroup component="ul" className="resolutions" transitionName="resolutionLoad" transitionEnterTimeout={600} transitionLeaveTimeout={400}>
           {this.resolutions().map((resolution)=>{
             return <ResolutionSingle key={resolution._id} resolution={resolution} />
           })}
-        </ul>
+        </ReactCSSTransitionGroup>
       </div>
     );
   }

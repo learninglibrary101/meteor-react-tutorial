@@ -56,5 +56,8 @@ React State is good to use for locking into a react component.
 `meteor add check` - check our code before it is run on the server
 (optional) `simple-schema` - checking all variables for you
 
+## Lesson 19 - ANIMATION IN REACT & METEOR
+`meteor npm install --save react-addons-css-transition-group`
+
 ### Meaning:
 - Props: the ability to pass data
