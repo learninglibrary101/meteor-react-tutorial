@@ -59,5 +59,7 @@ React State is good to use for locking into a react component.
 ## Lesson 19 - ANIMATION IN REACT & METEOR
 `meteor npm install --save react-addons-css-transition-group`
 
+## Lesson 20 - PAGE TRANSITIONS
+
 ### Meaning:
 - Props: the ability to pass data
