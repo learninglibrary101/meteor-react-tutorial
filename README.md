@@ -49,5 +49,8 @@ React State is good to use for locking into a react component.
 
 ## Lesson 16 - PARAMETER BASED ROUTES
 
+## Lesson 17 - PUBLIC & PRIVATE SETTINGS
+`$ meteor --settings settings.json`
+
 ### Meaning:
 - Props: the ability to pass data
