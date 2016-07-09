@@ -8,6 +8,7 @@ export default class About extends Component {
   }
 
   render(){
+    DocHead.setTitle('About | My Resolutions');
     return (
       <ReactCSSTransitionGroup component="div" className="resolutions" transitionName="route" transitionEnterTimeout={600} transitionAppearTimeout={600} transitionLeaveTimeout={400} transitionAppear={true}>
         <h1>About Us</h1>
