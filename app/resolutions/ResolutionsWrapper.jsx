@@ -6,7 +6,9 @@ import { render } from 'react-dom';
 import ResolutionsForm from './ResolutionsForm.jsx';
 import ResolutionSingle from './ResolutionSingle.jsx';
 
-Resolutions = new Mongo.Collection("resolutions");
+if(Meteor.isClient){
+  Resolutions = new Mongo.Collection("resolutions");
+}
 
 export default class ResolutionsWrapper extends TrackerReact(React.Component){
   constructor(){
